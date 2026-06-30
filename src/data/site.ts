@@ -1,8 +1,8 @@
 export const site = {
   name: "El Albab Real Estate",
   tagline: "Opening Doors to Egypt's Finest Properties.",
-  logo: "/logo.jpeg",
-  logoOnDark: "/logo1.jpeg",
+  logo: `${import.meta.env.BASE_URL}logo.jpeg`,
+  logoOnDark: `${import.meta.env.BASE_URL}logo1.jpeg`,
   whatsapp: "201554872908",
   allWhatsapps: [
     { label: "Egypt Sales (Primary)", number: "201554872908", display: "+20 155 487 2908" },

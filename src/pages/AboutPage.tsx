@@ -63,7 +63,7 @@ export function AboutPage() {
                 <p className="text-xs text-neutral-500 mb-4">Message from our Co-founder on our vision & presence in Egypt.</p>
               </div>
               <div className="overflow-hidden rounded-2xl border border-neutral-200 shadow-sm aspect-[16/9] bg-neutral-900">
-                <video src="/1.mp4" controls preload="metadata" className="w-full h-full object-cover" />
+                <video src={`${import.meta.env.BASE_URL}1.mp4`} controls preload="metadata" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="rounded-3xl border border-neutral-100 bg-neutral-50 p-6 flex flex-col justify-between">
@@ -72,7 +72,7 @@ export function AboutPage() {
                 <p className="text-xs text-neutral-500 mb-4">Co-founder explains ROI and market trends for international buyers.</p>
               </div>
               <div className="overflow-hidden rounded-2xl border border-neutral-200 shadow-sm aspect-[16/9] bg-neutral-900">
-                <video src="/2.mp4" controls preload="metadata" className="w-full h-full object-cover" />
+                <video src={`${import.meta.env.BASE_URL}2.mp4`} controls preload="metadata" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="rounded-3xl border border-neutral-100 bg-neutral-50 p-6 flex flex-col justify-between">
@@ -81,7 +81,7 @@ export function AboutPage() {
                 <p className="text-xs text-neutral-500 mb-4">Detailed guide on purchasing and legal safety in Egyptian properties.</p>
               </div>
               <div className="overflow-hidden rounded-2xl border border-neutral-200 shadow-sm aspect-[16/9] bg-neutral-900">
-                <video src="/3.mp4" controls preload="metadata" className="w-full h-full object-cover" />
+                <video src={`${import.meta.env.BASE_URL}3.mp4`} controls preload="metadata" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
