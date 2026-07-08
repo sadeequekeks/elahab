@@ -3,17 +3,15 @@ export const site = {
   tagline: "Opening Doors to Egypt's Finest Properties.",
   logo: `${import.meta.env.BASE_URL}logo.jpeg`,
   logoOnDark: `${import.meta.env.BASE_URL}logo1.jpeg`,
-  whatsapp: "201554872908",
+  whatsapp: "201551750636",
   allWhatsapps: [
-    { label: "Egypt Sales (Primary)", number: "201554872908", display: "+20 155 487 2908" },
+    { label: "Egypt Sales (Primary)", number: "201551750636", display: "+20 155 175 0636" },
     { label: "Egypt Consulting", number: "201016389887", display: "+20 101 638 9887" },
-    { label: "Egypt Support", number: "201013742408", display: "+20 101 374 2408" },
     { label: "Nigeria Office", number: "234704403008", display: "+234 704 403 008" },
   ],
   phones: [
-    "+20 155 487 2908",
+    "+20 155 175 0636",
     "+20 101 638 9887",
-    "+20 101 374 2408",
     "+234 704 403 008"
   ],
   email: "elalbabmajesticproperties@gmail.com",

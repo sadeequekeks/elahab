@@ -21,7 +21,7 @@ export const founders: Founder[] = [
     image: avatar(12),
   },
   {
-    name: "AbdulGafar Adam",
+    name: "Abdulghaffar Gamawa",
     role: "Co-Founder",
     bio: "Co-founder of El Albab Real Estate, combining expert guidance with market insight to deliver the best possible real estate outcomes.",
     image: avatar(9),
